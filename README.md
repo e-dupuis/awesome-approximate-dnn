@@ -34,4 +34,8 @@ Hoping to give a clear view on the subject with curated contents organized
 
 #### Structured - Kernel
 
-#### Structured - filter
+#### Structured - Filter
+
+#### Structured - Hardware Friendly Structure
+
+- [Accelerating Sparse DNN Models without Hardware-Support via Tile-Wise Sparsity](https://arxiv.org/pdf/2008.13006.pdf) - Large matrix multiplication are tiled, this method propose to maintain a regular pattern at the tile level, improving efficiency.
