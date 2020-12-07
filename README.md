@@ -24,6 +24,8 @@ Hoping to give a clear view on the subject with curated contents organized
 
 ## Approximations Frameworks
 
+## Dedicated HW
+
 ## Approximation Methods
 
 ### Pruning
