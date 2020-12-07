@@ -1,4 +1,6 @@
-# Approximate-dnn
+# Approximate Computing in Deep Neural Networks
+
+Hoping to give a clear view on the subject with curated contents organized
 
 ## Best Surveys
 
