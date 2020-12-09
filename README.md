@@ -3,6 +3,7 @@
 Hoping to give a clear view on the subject with curated contents organized
 
 - [Approximate Computing in Deep Neural Networks](#approximate-computing-in-deep-neural-networks)
+  * [Lexical](#lexical)
   * [Best Surveys](#best-surveys)
   * [Approximations Frameworks](#approximations-frameworks)
   * [Dedicated HW](#dedicated-hw)
@@ -16,6 +17,10 @@ Hoping to give a clear view on the subject with curated contents organized
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
+## Lexical
+
+- PQT: Post Training Quantization
+- QAT: Quantization Aware Training
 
 
 ## Best Surveys
