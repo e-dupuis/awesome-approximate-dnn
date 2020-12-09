@@ -5,9 +5,11 @@ Hoping to give a clear view on the subject with curated contents organized
 - [Approximate Computing in Deep Neural Networks](#approximate-computing-in-deep-neural-networks)
   * [Lexical](#lexical)
   * [Best Surveys](#best-surveys)
-  * [Approximations Frameworks](#approximations-frameworks)
-  * [Dedicated Library / Compiler](#dedicated-library---compiler)
-  * [Dedicated HW](#dedicated-hw)
+  * [Tools](#tools)
+    + [Approximations Frameworks](#approximations-frameworks)
+    + [Dedicated Library / Compiler](#dedicated-library---compiler)
+    + [Dedicated HW](#dedicated-hw)
+    + [Optimization Framework](#optimization-framework)
   * [Approximation Methods](#approximation-methods)
     + [Pruning](#pruning)
       - [Unstructured](#unstructured)
@@ -17,6 +19,7 @@ Hoping to give a clear view on the subject with curated contents organized
       - [Structured - Hardware Friendly Structure](#structured---hardware-friendly-structure)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Lexical
 
