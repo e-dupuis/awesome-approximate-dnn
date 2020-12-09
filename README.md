@@ -5,14 +5,17 @@ Hoping to give a clear view on the subject with curated contents organized
 - [Approximate Computing in Deep Neural Networks](#approximate-computing-in-deep-neural-networks)
   * [Best Surveys](#best-surveys)
   * [Approximations Frameworks](#approximations-frameworks)
+  * [Dedicated HW](#dedicated-hw)
   * [Approximation Methods](#approximation-methods)
     + [Pruning](#pruning)
       - [Unstructured](#unstructured)
       - [Structured - Sub-kernel](#structured---sub-kernel)
       - [Structured - Kernel](#structured---kernel)
-      - [Structured - filter](#structured---filter)
+      - [Structured - Filter](#structured---filter)
+      - [Structured - Hardware Friendly Structure](#structured---hardware-friendly-structure)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 ## Best Surveys
