@@ -60,9 +60,7 @@ Hoping to give a clear view on the subject with curated contents organized
 
 - [Maestro](https://github.com/maestro-project/maestro) - open-source tool for modeling and evaluating the performance and energy-efficiency of different dataflows for DNNs
 
-### Optimization Framework
 
-- [Google OR-Tools](https://developers.google.com/optimization/introduction/overview)
 
 ## Approximation Methods
 
@@ -79,3 +77,13 @@ Hoping to give a clear view on the subject with curated contents organized
 #### Structured - Hardware Friendly Structure
 
 - [Accelerating Sparse DNN Models without Hardware-Support via Tile-Wise Sparsity](https://arxiv.org/pdf/2008.13006.pdf) - Large matrix multiplication are tiled, this method propose to maintain a regular pattern at the tile level, improving efficiency.
+
+## Others
+
+### Optimization Framework
+
+- [Google OR-Tools](https://developers.google.com/optimization/introduction/overview)
+
+### Simulation Framework
+
+- [Renode](https://github.com/renode/renode) - Simulation platform for MCU dev & test (functional, single and multi-node)
