@@ -31,7 +31,7 @@ Hoping to give a clear view on the subject with curated contents organized
 
 ## Dedicated HW
 
-- PULP-NN [code](https://github.com/pulp-platform/pulp-nn, [paper](https://arxiv.org/abs/1908.11263) - QNN inference library for ultra low power PULP RiscV core
+- PULP-NN [code](https://github.com/pulp-platform/pulp-nn), [paper](https://arxiv.org/abs/1908.11263) - QNN inference library for ultra low power PULP RiscV core
 
 ## Approximation Methods
 
