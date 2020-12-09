@@ -24,6 +24,8 @@ Hoping to give a clear view on the subject with curated contents organized
 
 ## Approximations Frameworks
 
+- [NEMO](https://github.com/pulp-platform/nemo) - small library for minimization of Deep Neural Networks developed in PyTorch (PTQ, QAT), support ONNX export, intended for ultra low power devices like pulp-nn 
+
 ## Dedicated HW
 
 ## Approximation Methods
