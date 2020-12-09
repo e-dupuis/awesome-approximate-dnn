@@ -34,9 +34,16 @@ Hoping to give a clear view on the subject with curated contents organized
 
 - [NEMO](https://github.com/pulp-platform/nemo) - small library for minimization of Deep Neural Networks developed in PyTorch (PTQ, QAT), support ONNX export, intended for ultra low power devices like pulp-nn 
 
-## Dedicated HW
+## Dedicated Library / Compiler
 
 - PULP-NN [code](https://github.com/pulp-platform/pulp-nn), [paper](https://arxiv.org/abs/1908.11263) - QNN inference library for ultra low power PULP RiscV core
+- [Glow](https://github.com/pytorch/glow) - Glow is a machine learning compiler and execution engine for hardware accelerators (Pytorch, ONNX) 
+
+## Dedicated HW
+| Name | Description | Environment | Perf |
+|---|---|---|---|
+|[Esperanto ET-soc-1](https://www.esperanto.ai/esperanto-technologies-to-reveal-chip-with-1000-cores-at-risc-v-summit/) | 1000+ low power risc v core chip energy efficient processing of ML/DNN | Cloud | 800 TOPS @ 20W |
+|Google TPU](https://cloud.google.com/tpu/docs/tpus) | Processing unit for DNN workload, efficient systolic array for computation | Cloud, Edge | V3 - 90 TOPS @250W, Coral Edge 4TOPS @ 2W |
 
 ## Approximation Methods
 
