@@ -49,6 +49,7 @@ Hoping to give a clear view on the subject with curated contents organized
 - PULP-NN [code](https://github.com/pulp-platform/pulp-nn), [paper](https://arxiv.org/abs/1908.11263) - QNN inference library for ultra low power PULP RiscV core
 - [DORY](https://github.com/pulp-platform/dory) - automatic tool to deploy DNNs on low-cost MCUs with typically less than 1MB of on-chip SRAM memory
 - [Glow](https://github.com/pytorch/glow) - Glow is a machine learning compiler and execution engine for hardware accelerators (Pytorch, ONNX) 
+- [TensorflowLite](https://www.tensorflow.org/lite/guide) - TensorFlow Lite is a set of tools to help developers run TensorFlow models on mobile, embedded, and IoT devices. It enables on-device machine learning inference with low latency and a small binary size. [curated content for tflite](https://github.com/margaretmz/awesome-tensorflow-lite)
 
 ### Dedicated HW (ASIC)
 | Name | Description | Environment | Perf |
