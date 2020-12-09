@@ -31,7 +31,9 @@ Hoping to give a clear view on the subject with curated contents organized
 - 2020 [Model Compression and Hardware Acceleration for Neural Networks: A Comprehensive Survey](http://ieeexplore.ieee.org/document/9043731), Deng & al.
 - 2020 [Approximation Computing Techniques to Accelerate CNN Based Image Processing Applications – A Survey in Hardware/Software Perspective](https://www.researchgate.net/publication/342754132_Approximation_Computing_Techniques_to_Accelerate_CNN_Based_Image_Processing_Applications_-_A_Survey_in_HardwareSoftware_Perspective), Manikandan & al.
 
-## Approximations Frameworks
+## Tools
+
+### Approximations Frameworks
 | Name | Description | Framework | Supported Approx|
 |---|---|---|---|
 | [NEMO](https://github.com/pulp-platform/nemo) | small library for minimization of DNNs intended for ultra low power devices like pulp-nn | PyTorch, ONNX | PQT, QAT|
@@ -39,18 +41,19 @@ Hoping to give a clear view on the subject with curated contents organized
 | [PocketFlow](https://github.com/Tencent/PocketFlow) | open-source framework for compressing and accelerating DNNs. | Tensorflow | PQT, QAT, Prunning |
 | [Tensorflow Model Optimization](https://github.com/tensorflow/model-optimization/) | Toolkit to optimize ML / DNN model | Tenforflow(Keras) | Clustering, Quantization (PQT, QAT), Pruning |
 
-## Dedicated Library / Compiler
+### Dedicated Library / Compiler
 
 - PULP-NN [code](https://github.com/pulp-platform/pulp-nn), [paper](https://arxiv.org/abs/1908.11263) - QNN inference library for ultra low power PULP RiscV core
+- [DORY](https://github.com/pulp-platform/dory) - automatic tool to deploy DNNs on low-cost MCUs with typically less than 1MB of on-chip SRAM memory
 - [Glow](https://github.com/pytorch/glow) - Glow is a machine learning compiler and execution engine for hardware accelerators (Pytorch, ONNX) 
 
-## Dedicated HW
+### Dedicated HW
 | Name | Description | Environment | Perf |
 |---|---|---|---|
 |[Esperanto ET-soc-1](https://www.esperanto.ai/esperanto-technologies-to-reveal-chip-with-1000-cores-at-risc-v-summit/) | 1000+ low power risc v core chip energy efficient processing of ML/DNN | Cloud | 800 TOPS @ 20W |
 |[Google TPU](https://cloud.google.com/tpu/docs/tpus) | Processing unit for DNN workload, efficient systolic array for computation | Cloud, Edge | V3 - 90 TOPS @250W, Coral Edge 4TOPS @ 2W |
 
-## Optimization Framework
+### Optimization Framework
 
 - [Google OR-Tools](https://developers.google.com/optimization/introduction/overview)
 
