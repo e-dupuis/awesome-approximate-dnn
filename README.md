@@ -8,8 +8,8 @@ Hoping to give a clear view on the subject with curated contents organized
   * [Tools](#tools)
     + [Approximations Frameworks](#approximations-frameworks)
     + [Dedicated Library / Compiler](#dedicated-library---compiler)
-    + [Dedicated HW](#dedicated-hw)
-    + [Optimization Framework](#optimization-framework)
+    + [Dedicated HW (ASIC)](#dedicated-hw--asic-)
+    + [FPGA based accelerator](#fpga-based-accelerator)
   * [Approximation Methods](#approximation-methods)
     + [Pruning](#pruning)
       - [Unstructured](#unstructured)
@@ -17,8 +17,12 @@ Hoping to give a clear view on the subject with curated contents organized
       - [Structured - Kernel](#structured---kernel)
       - [Structured - Filter](#structured---filter)
       - [Structured - Hardware Friendly Structure](#structured---hardware-friendly-structure)
+  * [Others](#others)
+    + [Optimization Framework](#optimization-framework)
+    + [Simulation Framework](#simulation-framework)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 ## Lexical
