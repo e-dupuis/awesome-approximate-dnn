@@ -2,6 +2,8 @@
 
 Hoping to give a clear view on the subject with curated contents organized
 
+From algorithm to hardware execution
+
 - [Approximate Computing in Deep Neural Networks](#approximate-computing-in-deep-neural-networks)
   * [Lexical](#lexical)
   * [Best Surveys](#best-surveys)
