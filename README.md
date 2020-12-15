@@ -91,6 +91,9 @@ From algorithm to hardware execution
 
 - [Accelerating Sparse DNN Models without Hardware-Support via Tile-Wise Sparsity](https://arxiv.org/pdf/2008.13006.pdf) - Large matrix multiplication are tiled, this method propose to maintain a regular pattern at the tile level, improving efficiency.
 
+### Approximate operators
+- [ALWANN: Automatic Layer-Wise Approximation of Deep Neural Network Accelerators without Retraining](https://arxiv.org/abs/1907.07229) - Use NSGA II to optimize approximate multipliers implemented & DNN mapping onto implemented Ax multipliers.
+
 ## Others
 
 ### Optimization Framework
