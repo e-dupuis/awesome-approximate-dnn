@@ -102,6 +102,10 @@ From algorithm to hardware execution
 
 - [Google OR-Tools](https://developers.google.com/optimization/introduction/overview)
 
+### DNN conversion framework
+
+- [MMdnn](https://github.com/Microsoft/MMdnn) - Microsoft tool for cross-framework conversion, retraining, visualization & deployment
+- [ONNX]() - 
 ### Simulation Framework
 
 - [Renode](https://github.com/renode/renode) - Simulation platform for MCU dev & test (functional, single and multi-node)
