@@ -73,6 +73,10 @@ From algorithm to hardware execution
 
 - [Maestro](https://github.com/maestro-project/maestro) - open-source tool for modeling and evaluating the performance and energy-efficiency of different dataflows for DNNs
 
+### Evaluation Frameworks
+
+- [DNN-Neurosim](https://github.com/neurosim/DNN_NeuroSim_V2.0) - Framework for evaluating the performance of inference or training of on-chip DNN
+
 
 
 ## Approximation Methods
