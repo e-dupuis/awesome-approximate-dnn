@@ -77,9 +77,11 @@ From algorithm to hardware execution
 
 ## Approximation Methods
 
-### Pruning
+- 2020 [Deep Neural Network Compression by In-Parallel Pruning-Quantization](https://ieeexplore.ieee.org/document/8573867) - Use Bayesian optimization to solve both pruning and quantization problems jointly and with fine-tuning.
 
 - 2020 [OPQ: Compressing Deep Neural Networks with One-shot Pruning-Quantization](https://www.semanticscholar.org/paper/OPQ%3A-Compressing-Deep-Neural-Networks-with-One-shot-Hu-Peng/7b16367b575d951a98f1762d8f45d7c0eb840581) - Analytical single shot compression (Pruning + Quantization) of DNN using only pretrained weights values, then fine-tuning to recover ACL 
+
+### Pruning
 
 #### Unstructured
 
