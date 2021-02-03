@@ -79,6 +79,8 @@ From algorithm to hardware execution
 
 ### Pruning
 
+- 2020 [OPQ: Compressing Deep Neural Networks with One-shot Pruning-Quantization](https://www.semanticscholar.org/paper/OPQ%3A-Compressing-Deep-Neural-Networks-with-One-shot-Hu-Peng/7b16367b575d951a98f1762d8f45d7c0eb840581) - Analytical single shot compression (Pruning + Quantization) of DNN using only pretrained weights values, then fine-tuning to recover ACL 
+
 #### Unstructured
 
 #### Structured - Sub-kernel
