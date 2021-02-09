@@ -99,6 +99,10 @@ From algorithm to hardware execution
 
 - [Accelerating Sparse DNN Models without Hardware-Support via Tile-Wise Sparsity](https://arxiv.org/pdf/2008.13006.pdf) - Large matrix multiplication are tiled, this method propose to maintain a regular pattern at the tile level, improving efficiency.
 
+#### Weight Saliency Determination
+
+- 2020 [Utilizing Explainable AI for Quantization and Pruning of Deep Neural Networks](https://arxiv.org/abs/2008.09072) - Using DeepLift (explainable AI) as hints to improve compression by determining importance of neurons and features
+
 ### Quantization
 
 - 2018 [Learning Compression from Limited Unlabeled Data](https://openaccess.thecvf.com/content_ECCV_2018/papers/Xiangyu_He_Learning_Compression_from_ECCV_2018_paper.pdf) - Use unlabelled data to improve accuracy of quantization in a very fast fine-tuning step
