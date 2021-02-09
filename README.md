@@ -28,8 +28,10 @@ From algorithm to hardware execution
     + [Optimization Framework](#optimization-framework)
     + [DNN conversion framework](#dnn-conversion-framework)
     + [Simulation Framework](#simulation-framework)
+    + [Visualization Framework](#visualization-framework)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
@@ -130,3 +132,8 @@ From algorithm to hardware execution
 ### Simulation Framework
 
 - [Renode](https://github.com/renode/renode) - Simulation platform for MCU dev & test (functional, single and multi-node)
+
+### Visualization Framework
+
+- [Tensorboard](https://www.tensorflow.org/tensorboard) - Visualization tool for Tensorflow, Pytorch ..., can show graph, metric evolution over training ... very adaptable
+- [Netron](https://github.com/lutzroeder/netron) - Tool to show ONNX graph with all the attributes.
