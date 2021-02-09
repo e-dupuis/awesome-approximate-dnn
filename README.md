@@ -13,6 +13,7 @@ From algorithm to hardware execution
     + [Graph Compiler](#graph-compiler)
     + [Dedicated HW (ASIC)](#dedicated-hw--asic-)
     + [FPGA based accelerator](#fpga-based-accelerator)
+    + [Evaluation Frameworks](#evaluation-frameworks)
   * [Approximation Methods](#approximation-methods)
     + [Pruning](#pruning)
       - [Unstructured](#unstructured)
@@ -20,8 +21,12 @@ From algorithm to hardware execution
       - [Structured - Kernel](#structured---kernel)
       - [Structured - Filter](#structured---filter)
       - [Structured - Hardware Friendly Structure](#structured---hardware-friendly-structure)
+      - [Weight Saliency Determination](#weight-saliency-determination)
+    + [Quantization](#quantization)
+    + [Approximate operators](#approximate-operators)
   * [Others](#others)
     + [Optimization Framework](#optimization-framework)
+    + [DNN conversion framework](#dnn-conversion-framework)
     + [Simulation Framework](#simulation-framework)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
