@@ -58,6 +58,7 @@ From algorithm to hardware execution
 | [NNI](https://github.com/microsoft/nni) | lightweight toolkit for Feature Engineering, Neural Architecture Search, Hyperparameter Tuning and Model Compression | Pytorch, Tensorflow (+Keras), MXnet, Caffe2 CNTK, Theano | Pruning / PQT)|
 | [PocketFlow](https://github.com/Tencent/PocketFlow) | open-source framework for compressing and accelerating DNNs. | Tensorflow | PQT, QAT, Prunning |
 | [Tensorflow Model Optimization](https://github.com/tensorflow/model-optimization/) | Toolkit to optimize ML / DNN model | Tenforflow(Keras) | Clustering, Quantization (PQT, QAT), Pruning |
+| [Brevitas](https://github.com/Xilinx/brevitas) | Pytorch extension to quantize DNN model | Pytorch | PQT, QAT | 
 
 ### Dedicated Library
 
@@ -79,6 +80,9 @@ From algorithm to hardware execution
 ### FPGA based accelerator
 
 - [Maestro](https://github.com/maestro-project/maestro) - open-source tool for modeling and evaluating the performance and energy-efficiency of different dataflows for DNNs
+- [HLS4ML](https://github.com/fastmachinelearning/hls4ml) - package for creating HLS from various ML framework (good pytorch support), create streamline architecture
+- [FINN](https://github.com/Xilinx/finn) - framework for creating HW accelerator (HLS code) from BREVITAS quantized model, downto BNN, create PE architecture
+- [N2D2](https://github.com/CEA-LIST/N2D2) - framework for creating HLS from N2D2 trained model (support ONNX import), create streamline architecture
 
 ### Evaluation Frameworks
 
