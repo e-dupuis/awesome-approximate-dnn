@@ -76,6 +76,7 @@ From algorithm to hardware execution
 |---|---|---|---|
 |[Esperanto ET-soc-1](https://www.esperanto.ai/esperanto-technologies-to-reveal-chip-with-1000-cores-at-risc-v-summit/) | 1000+ low power risc v core chip energy efficient processing of ML/DNN | Cloud | 800 TOPS @ 20W |
 |[Google TPU](https://cloud.google.com/tpu/docs/tpus) | Processing unit for DNN workload, efficient systolic array for computation | Cloud, Edge | V3 - 90 TOPS @250W, Coral Edge 4TOPS @ 2W |
+|[Greenwave GAP8](https://ieeexplore.ieee.org/document/8445101)| multi-GOPS fully programmable RISC-V IoT-edge computing engine, featuring a 8-core cluster with CNN accelerator, coupled with an ultra-low power MCU with 30 μW state-retentive sleep power (75mW)|Edge| 600 GMAC/s/W|
 
 ### FPGA based accelerator
 
