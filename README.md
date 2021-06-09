@@ -14,6 +14,7 @@ From algorithm to hardware execution
     + [Dedicated HW (ASIC)](#dedicated-hw--asic-)
     + [FPGA based accelerator](#fpga-based-accelerator)
     + [Evaluation Frameworks](#evaluation-frameworks)
+    + [Simulation Frameworks](#simulation-frameworks)
   * [Approximation Methods](#approximation-methods)
     + [Pruning](#pruning)
       - [Unstructured](#unstructured)
@@ -31,9 +32,6 @@ From algorithm to hardware execution
     + [Visualization Framework](#visualization-framework)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
 
 
 ## Lexical
@@ -88,6 +86,10 @@ From algorithm to hardware execution
 ### Evaluation Frameworks
 
 - [DNN-Neurosim](https://github.com/neurosim/DNN_NeuroSim_V2.0) - Framework for evaluating the performance of inference or training of on-chip DNN
+
+### Simulation Frameworks
+- [SCALE-Sim](https://github.com/ARM-software/SCALE-Sim) - ARM CNN accelerator simulator, that provides cycle-accurate timing, power/energy, memory bandwidth and trace results for a specified accelerator configuration and neural network architecture.
+- [Eyeriss Energy Estimator](https://energyestimation.mit.edu) - Energy Estimator for MIT's Eyeriss Hardware Accelerator
 
 
 
