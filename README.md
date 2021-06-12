@@ -57,6 +57,7 @@ From algorithm to hardware execution
 | [PocketFlow](https://github.com/Tencent/PocketFlow) | open-source framework for compressing and accelerating DNNs. | Tensorflow | PQT, QAT, Prunning |
 | [Tensorflow Model Optimization](https://github.com/tensorflow/model-optimization/) | Toolkit to optimize ML / DNN model | Tenforflow(Keras) | Clustering, Quantization (PQT, QAT), Pruning |
 | [Brevitas](https://github.com/Xilinx/brevitas) | Pytorch extension to quantize DNN model | Pytorch | PQT, QAT | 
+| [TFApprox](https://github.com/ehw-fit/tf-approximate) | Add ApproxConv layers to TF to emulate the use of approximated multipliers on GPU, typically from [EvoApproxLib](https://github.com/ehw-fit/evoapproxlib)  | Tensorflow | Approximate Multipliers|
 
 ### Dedicated Library
 
