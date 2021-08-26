@@ -30,6 +30,7 @@ From algorithm to hardware execution
     + [DNN conversion framework](#dnn-conversion-framework)
     + [Simulation Framework](#simulation-framework)
     + [Visualization Framework](#visualization-framework)
+    + [Visualization Framework](#hls-framework)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -104,14 +105,6 @@ From algorithm to hardware execution
 
 ### Pruning
 
-#### Unstructured
-
-#### Structured - Sub-kernel
-
-#### Structured - Kernel
-
-#### Structured - Filter
-
 #### Structured - Hardware Friendly Structure
 
 - [Accelerating Sparse DNN Models without Hardware-Support via Tile-Wise Sparsity](https://arxiv.org/pdf/2008.13006.pdf) - Large matrix multiplication are tiled, this method propose to maintain a regular pattern at the tile level, improving efficiency.
@@ -147,3 +140,9 @@ From algorithm to hardware execution
 
 - [Tensorboard](https://www.tensorflow.org/tensorboard) - Visualization tool for Tensorflow, Pytorch ..., can show graph, metric evolution over training ... very adaptable
 - [Netron](https://github.com/lutzroeder/netron) - Tool to show ONNX graph with all the attributes.
+
+### HLS Framework
+
+- [Xilinx Vivado HLS](https://www.xilinx.com/support/documentation-navigation/design-hubs/dh0012-vivado-high-level-synthesis-hub.html) - C/C++ based HLS for XILINX Fpga
+- [ntel Quartus HLS](https://www.intel.fr/content/www/fr/fr/software/programmable/quartus-prime/hls-compiler.html) - C++ HLS for ALTERA/INTEL FPGA
+- [Mentor Catapult HLS](https://eda.sw.siemens.com/en-US/ic/ic-design/high-level-synthesis-and-verification-platform/) - C++/SystemC HLS For Siemens FPGA
