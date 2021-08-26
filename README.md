@@ -18,9 +18,6 @@ From algorithm to hardware execution
   * [Approximation Methods](#approximation-methods)
     + [Pruning](#pruning)
       - [Unstructured](#unstructured)
-      - [Structured - Sub-kernel](#structured---sub-kernel)
-      - [Structured - Kernel](#structured---kernel)
-      - [Structured - Filter](#structured---filter)
       - [Structured - Hardware Friendly Structure](#structured---hardware-friendly-structure)
       - [Weight Saliency Determination](#weight-saliency-determination)
     + [Quantization](#quantization)
@@ -58,6 +55,7 @@ From algorithm to hardware execution
 | [NNI](https://github.com/microsoft/nni) | lightweight toolkit for Feature Engineering, Neural Architecture Search, Hyperparameter Tuning and Model Compression | Pytorch, Tensorflow (+Keras), MXnet, Caffe2 CNTK, Theano | Pruning / PQT)|
 | [PocketFlow](https://github.com/Tencent/PocketFlow) | open-source framework for compressing and accelerating DNNs. | Tensorflow | PQT, QAT, Prunning |
 | [Tensorflow Model Optimization](https://github.com/tensorflow/model-optimization/) | Toolkit to optimize ML / DNN model | Tenforflow(Keras) | Clustering, Quantization (PQT, QAT), Pruning |
+| [QKeras](https://github.com/google/qkeras) | quantization extension to Keras that provides drop-in replacement for some of the Keras layers| Tensorflow(Keras) | Quantization (QAT) |
 | [Brevitas](https://github.com/Xilinx/brevitas) | Pytorch extension to quantize DNN model | Pytorch | PQT, QAT | 
 | [TFApprox](https://github.com/ehw-fit/tf-approximate) | Add ApproxConv layers to TF to emulate the use of approximated multipliers on GPU, typically from [EvoApproxLib](https://github.com/ehw-fit/evoapproxlib)  | Tensorflow | Approximate Multipliers|
 
@@ -94,8 +92,6 @@ From algorithm to hardware execution
 ### Simulation Frameworks
 - [SCALE-Sim](https://github.com/ARM-software/SCALE-Sim) - ARM CNN accelerator simulator, that provides cycle-accurate timing, power/energy, memory bandwidth and trace results for a specified accelerator configuration and neural network architecture.
 - [Eyeriss Energy Estimator](https://energyestimation.mit.edu) - Energy Estimator for MIT's Eyeriss Hardware Accelerator
-
-
 
 ## Approximation Methods
 
