@@ -30,7 +30,7 @@ From algorithm to hardware execution
     + [DNN conversion framework](#dnn-conversion-framework)
     + [Simulation Framework](#simulation-framework)
     + [Visualization Framework](#visualization-framework)
-    + [Visualization Framework](#hls-framework)
+    + [HLS Framework](#hls-framework)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
