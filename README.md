@@ -122,7 +122,9 @@ From algorithm to hardware execution
 
 ### Optimization Framework
 
-- [Google OR-Tools](https://developers.google.com/optimization/introduction/overview)
+- [Google OR-Tools](https://developers.google.com/optimization/introduction/overview) - Constraint programming, routing and other optimization tools
+- [Facebook Botorch](https://botorch.org) - Bayesian optimization accelerated by torch backend, python API
+- [Pymoo](https://botorch.org) - collection of multi-objective optimization implementation in python, user friendly interface
 
 ### DNN conversion framework
 
