@@ -138,6 +138,7 @@ From algorithm to hardware execution
 
 - [Tensorboard](https://www.tensorflow.org/tensorboard) - Visualization tool for Tensorflow, Pytorch ..., can show graph, metric evolution over training ... very adaptable
 - [Netron](https://github.com/lutzroeder/netron) - Tool to show ONNX graph with all the attributes.
+- [mlflow](https://mlflow.org) - very flexible simulation logging tool (client/server) allowing to log parameter & metrics + object storage, python and shell interfaces 
 
 ### HLS Framework
 
