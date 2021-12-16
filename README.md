@@ -70,6 +70,7 @@ From algorithm to hardware execution
 - [TensorflowLite](https://www.tensorflow.org/lite/guide) - TensorFlow Lite is a set of tools to help developers run TensorFlow models on mobile, embedded, and IoT devices. It enables on-device machine learning inference with low latency and a small binary size (linux, android, mcu). [curated content for tflite](https://github.com/margaretmz/awesome-tensorflow-lite)
 - [OpenVino](https://docs.openvinotoolkit.org) - OpenCL based graph compiler for intel environnment (Intel CPU, Intel GPU, Dedicated accelerator)
 - [N2D2](https://github.com/CEA-LIST/N2D2) - Framework capable of training and exporting DNN in different format, particulary standalone C/C++ compilable project with very few dependencis and quantized, support import from ONNX model
+- [Vitis AI](https://www.xilinx.com/products/design-tools/vitis/vitis-ai.html) - Optimal Artificial Intelligence Inference from Edge to Cloud (compiler / optimizer / quantizer / profiler / IP set)
 
 ### Dedicated HW (ASIC)
 | Name | Description | Environment | Perf |
