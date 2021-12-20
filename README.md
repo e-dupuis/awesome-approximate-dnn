@@ -25,7 +25,7 @@ From algorithm to hardware execution
   * [Others](#others)
     + [Contests](#contests)
     + [Model ZOO](#model-zoo)
-    + [Generic DSE Framework](#optimization-framework)
+    + [Generic DSE Framework](#generic-dse-framework)
     + [DNN conversion framework](#dnn-conversion-framework)
     + [Visualization Framework](#visualization-framework)
     + [HLS Framework](#hls-framework)
