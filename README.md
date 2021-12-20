@@ -95,6 +95,7 @@ From algorithm to hardware execution
 ### Simulation Frameworks
 - [SCALE-Sim](https://github.com/ARM-software/SCALE-Sim) - ARM CNN accelerator simulator, that provides cycle-accurate timing, power/energy, memory bandwidth and trace results for a specified accelerator configuration and neural network architecture.
 - [Eyeriss Energy Estimator](https://energyestimation.mit.edu) - Energy Estimator for MIT's Eyeriss Hardware Accelerator
+- [Torchbench](https://github.com/paperswithcode/torchbench) - collection of deep learning benchmarks you can use to benchmark your models, optimized for the PyTorch framework.
 
 ## Approximation Methods
 
@@ -125,6 +126,15 @@ From algorithm to hardware execution
 
 
 ## Others
+
+### Model ZOO
+
+- [TIMM](https://github.com/rwightman/pytorch-image-models) - Excellent model zoo & training scripts for pytorch
+- [ONNX Model Zoo](https://github.com/onnx/models) - Collection of pre-trained onnx models
+- [Tensorflow Hub](https://tfhub.dev) - pre-trained model that can be imported as keras layers for deployment / fine-tuning
+- [Keras Applications](https://www.tensorflow.org/api_docs/python/tf/keras/applications) - pre-trained popular CNNs implemented in Keras - can be customized and fine tuned
+- [Torchvision](https://pytorch.org/vision/stable/models.html) - The torch equivalent to keras applications
+- [Openvino pre-trained models](https://docs.openvino.ai/2019_R1/_docs_Pre_Trained_Models.html) - Intel pre-trained model for use in OpenVino
 
 ### Optimization Framework
 
