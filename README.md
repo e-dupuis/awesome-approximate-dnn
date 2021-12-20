@@ -72,12 +72,13 @@ From algorithm to hardware execution
 - [N2D2](https://github.com/CEA-LIST/N2D2) - Framework capable of training and exporting DNN in different format, particulary standalone C/C++ compilable project with very few dependencis and quantized, support import from ONNX model
 - [Vitis AI](https://www.xilinx.com/products/design-tools/vitis/vitis-ai.html) - Optimal Artificial Intelligence Inference from Edge to Cloud (compiler / optimizer / quantizer / profiler / IP set)
 
-### Dedicated HW (ASIC)
+### Commercial Dedicated HW accelerator (ASIC)
 | Name | Description | Environment | Perf |
 |---|---|---|---|
 |[Esperanto ET-soc-1](https://www.esperanto.ai/esperanto-technologies-to-reveal-chip-with-1000-cores-at-risc-v-summit/) | 1000+ low power risc v core chip energy efficient processing of ML/DNN | Cloud | 800 TOPS @ 20W |
 |[Google TPU](https://cloud.google.com/tpu/docs/tpus) | Processing unit for DNN workload, efficient systolic array for computation | Cloud, Edge | V3 - 90 TOPS @250W, Coral Edge 4TOPS @ 2W |
 |[Greenwave GAP8](https://ieeexplore.ieee.org/document/8445101)| multi-GOPS fully programmable RISC-V IoT-edge computing engine, featuring a 8-core cluster with CNN accelerator, coupled with an ultra-low power MCU with 30 μW state-retentive sleep power (75mW)|Edge| 600 GMAC/s/W|
+|[Intel Movidius Myriad](https://www.intel.com/content/www/us/en/products/docs/processors/movidius-vpu/myriad-x-product-brief.html)| Vector processing unit for accelerating DNN inference, Interface with the OpenVino toolkit, 16 programmable cores| Edge | 1 TOPS @ 1.5W - 2.67 TOPS/W|
 
 ### FPGA based accelerator / HLS for CNNs
 
