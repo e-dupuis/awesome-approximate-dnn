@@ -11,25 +11,26 @@ From algorithm to hardware execution
     + [Approximations Frameworks](#approximations-frameworks)
     + [Dedicated Library](#dedicated-library)
     + [Graph Compiler](#graph-compiler)
-    + [Dedicated HW (ASIC)](#dedicated-hw--asic-)
-    + [FPGA based accelerator](#fpga-based-accelerator)
+    + [Commercial Dedicated HW accelerator (ASIC)](#commercial-dedicated-hw-accelerator--asic-)
+    + [FPGA based accelerator / HLS for CNNs](#fpga-based-accelerator---hls-for-cnns)
     + [Evaluation Frameworks](#evaluation-frameworks)
     + [Simulation Frameworks](#simulation-frameworks)
   * [Approximation Methods](#approximation-methods)
     + [Pruning](#pruning)
-      - [Unstructured](#unstructured)
       - [Structured - Hardware Friendly Structure](#structured---hardware-friendly-structure)
       - [Weight Saliency Determination](#weight-saliency-determination)
+      - [Data-free methods](#data-free-methods)
     + [Quantization](#quantization)
     + [Approximate operators](#approximate-operators)
   * [Others](#others)
+    + [Contests](#contests)
+    + [Model ZOO](#model-zoo)
     + [Optimization Framework](#optimization-framework)
     + [DNN conversion framework](#dnn-conversion-framework)
     + [Visualization Framework](#visualization-framework)
     + [HLS Framework](#hls-framework)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 ## Lexical
 
@@ -127,6 +128,11 @@ From algorithm to hardware execution
 
 
 ## Others
+
+### Contests
+
+- [MLPerf / MLCommons](https://mlcommons.org/en/) - Acceleration contest for ML
+- [Papers with Code](https://paperswithcode.com) - latest papers / code in ML, SoTA representation for several applications (CV, NLP, Medical ...)
 
 ### Model ZOO
 
