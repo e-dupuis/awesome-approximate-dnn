@@ -25,7 +25,6 @@ From algorithm to hardware execution
   * [Others](#others)
     + [Optimization Framework](#optimization-framework)
     + [DNN conversion framework](#dnn-conversion-framework)
-    + [Simulation Framework](#simulation-framework)
     + [Visualization Framework](#visualization-framework)
     + [HLS Framework](#hls-framework)
 
@@ -96,6 +95,7 @@ From algorithm to hardware execution
 - [SCALE-Sim](https://github.com/ARM-software/SCALE-Sim) - ARM CNN accelerator simulator, that provides cycle-accurate timing, power/energy, memory bandwidth and trace results for a specified accelerator configuration and neural network architecture.
 - [Eyeriss Energy Estimator](https://energyestimation.mit.edu) - Energy Estimator for MIT's Eyeriss Hardware Accelerator
 - [Torchbench](https://github.com/paperswithcode/torchbench) - collection of deep learning benchmarks you can use to benchmark your models, optimized for the PyTorch framework.
+- [Renode](https://github.com/renode/renode) - Functional simulation platform for MCU dev & test (single and multi-node)
 
 ## Approximation Methods
 
@@ -146,9 +146,6 @@ From algorithm to hardware execution
 
 - [MMdnn](https://github.com/Microsoft/MMdnn) - Microsoft tool for cross-framework conversion, retraining, visualization & deployment
 - [ONNX](https://github.com/onnx/onnx) - model format to exchange frozen models between ML frameworks 
-### Simulation Framework
-
-- [Renode](https://github.com/renode/renode) - Simulation platform for MCU dev & test (functional, single and multi-node)
 
 ### Visualization Framework
 
