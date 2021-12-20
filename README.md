@@ -79,12 +79,13 @@ From algorithm to hardware execution
 |[Google TPU](https://cloud.google.com/tpu/docs/tpus) | Processing unit for DNN workload, efficient systolic array for computation | Cloud, Edge | V3 - 90 TOPS @250W, Coral Edge 4TOPS @ 2W |
 |[Greenwave GAP8](https://ieeexplore.ieee.org/document/8445101)| multi-GOPS fully programmable RISC-V IoT-edge computing engine, featuring a 8-core cluster with CNN accelerator, coupled with an ultra-low power MCU with 30 μW state-retentive sleep power (75mW)|Edge| 600 GMAC/s/W|
 
-### FPGA based accelerator
+### FPGA based accelerator / HLS for CNNs
 
 - [Maestro](https://github.com/maestro-project/maestro) - open-source tool for modeling and evaluating the performance and energy-efficiency of different dataflows for DNNs
 - [HLS4ML](https://github.com/fastmachinelearning/hls4ml) - package for creating HLS from various ML framework (good pytorch support), create streamline architecture
 - [FINN](https://github.com/Xilinx/finn) - framework for creating HW accelerator (HLS code) from BREVITAS quantized model, downto BNN, create PE architecture
 - [N2D2](https://github.com/CEA-LIST/N2D2) - framework for creating HLS from N2D2 trained model (support ONNX import), create streamline architecture
+- [ScaleHLS](https://github.com/hanchenye/scalehls) - HLS framework on MLIR. Can compile HLS C/C++ or ONNX model to optimized HLS C/C++ in order to generate high-efficiency RTL design using downstream tools, such as Vivado HLS. Focus on scalability, automated DSE engine.
 
 ### Evaluation Frameworks
 
