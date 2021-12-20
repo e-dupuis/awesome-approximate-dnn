@@ -121,6 +121,7 @@ From algorithm to hardware execution
 ### Quantization
 
 - 2018 [Learning Compression from Limited Unlabeled Data](https://openaccess.thecvf.com/content_ECCV_2018/papers/Xiangyu_He_Learning_Compression_from_ECCV_2018_paper.pdf) - Use unlabelled data to improve accuracy of quantization in a very fast fine-tuning step
+- 2020 [Automatic heterogeneous quantization of deep neural networks for low-latency inference on the edge for particle detectors](https://arxiv.org/pdf/2.006.10159.pdf) - AutoQKeras, Per layer quantization optimization using meta-heuristic DSE based on Bayesian Optimization, make use of Qkeras & hls4ml.
 
 ### Approximate operators
 - 2020 [Full Approximation of Deep Neural Networks through Efficient Optimization](https://ieeexplore.ieee.org/document/9181236/) - Select efficient approx multipliers through retraining and minimization of accuracy loss (Evo Approx)
