@@ -111,6 +111,9 @@ From algorithm to hardware execution
 
 - 2020 [Utilizing Explainable AI for Quantization and Pruning of Deep Neural Networks](https://arxiv.org/abs/2008.09072) - Using DeepLift (explainable AI) as hints to improve compression by determining importance of neurons and features
 
+#### Data-free methods
+- 2021 [Post-training deep neural network pruning via layer-wise calibration](https://arxiv.org/abs/2104.15023) - Layer-wise sparse pruning calibration based on the use of fractal images to replace representative data, post quantization, achieving 2x compression.
+
 ### Quantization
 
 - 2018 [Learning Compression from Limited Unlabeled Data](https://openaccess.thecvf.com/content_ECCV_2018/papers/Xiangyu_He_Learning_Compression_from_ECCV_2018_paper.pdf) - Use unlabelled data to improve accuracy of quantization in a very fast fine-tuning step
