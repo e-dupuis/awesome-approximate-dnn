@@ -25,7 +25,7 @@ From algorithm to hardware execution
   * [Others](#others)
     + [Contests](#contests)
     + [Model ZOO](#model-zoo)
-    + [Optimization Framework](#optimization-framework)
+    + [Generic DSE Framework](#optimization-framework)
     + [DNN conversion framework](#dnn-conversion-framework)
     + [Visualization Framework](#visualization-framework)
     + [HLS Framework](#hls-framework)
@@ -143,7 +143,7 @@ From algorithm to hardware execution
 - [Torchvision](https://pytorch.org/vision/stable/models.html) - The torch equivalent to keras applications
 - [Openvino pre-trained models](https://docs.openvino.ai/2019_R1/_docs_Pre_Trained_Models.html) - Intel pre-trained model for use in OpenVino
 
-### Optimization Framework
+### Generic DSE Framework
 
 - [Google OR-Tools](https://developers.google.com/optimization/introduction/overview) - Constraint programming, routing and other optimization tools
 - [Facebook Botorch](https://botorch.org) - Bayesian optimization accelerated by torch backend, python API
