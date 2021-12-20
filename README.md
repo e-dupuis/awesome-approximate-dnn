@@ -33,7 +33,7 @@ From algorithm to hardware execution
 
 ## Lexical
 
-- PQT: Post Training Quantization
+- PTQ: Post Training Quantization
 - QAT: Quantization Aware Training
 
 
@@ -50,13 +50,14 @@ From algorithm to hardware execution
 ### Approximations Frameworks
 | Name | Description | Framework | Supported Approx|
 |---|---|---|---|
-| [NEMO](https://github.com/pulp-platform/nemo) | small library for minimization of DNNs intended for ultra low power devices like pulp-nn | PyTorch, ONNX | PQT, QAT|
-| [Microsoft NNI](https://github.com/microsoft/nni) | lightweight toolkit for Feature Engineering, Neural Architecture Search, Hyperparameter Tuning and Model Compression | Pytorch, Tensorflow (+Keras), MXnet, Caffe2 CNTK, Theano | Pruning / PQT)|
-| [PocketFlow](https://github.com/Tencent/PocketFlow) | open-source framework for compressing and accelerating DNNs. | Tensorflow | PQT, QAT, Prunning |
-| [Tensorflow Model Optimization](https://github.com/tensorflow/model-optimization/) | Toolkit to optimize ML / DNN model | Tenforflow(Keras) | Clustering, Quantization (PQT, QAT), Pruning |
+| [NEMO](https://github.com/pulp-platform/nemo) | small library for minimization of DNNs intended for ultra low power devices like pulp-nn | PyTorch, ONNX | PTQ, QAT|
+| [Microsoft NNI](https://github.com/microsoft/nni) | lightweight toolkit for Feature Engineering, Neural Architecture Search, Hyperparameter Tuning and Model Compression | Pytorch, Tensorflow (+Keras), MXnet, Caffe2 CNTK, Theano | Pruning / PTQ)|
+| [PocketFlow](https://github.com/Tencent/PocketFlow) | open-source framework for compressing and accelerating DNNs. | Tensorflow | PTQ, QAT, Prunning |
+| [Tensorflow Model Optimization](https://github.com/tensorflow/model-optimization/) | Toolkit to optimize ML / DNN model | Tenforflow(Keras) | Clustering, Quantization (PTQ, QAT), Pruning |
 | [QKeras](https://github.com/google/qkeras) | quantization extension to Keras that provides drop-in replacement for some of the Keras layers| Tensorflow(Keras) | Quantization (QAT) |
-| [Brevitas](https://github.com/Xilinx/brevitas) | Pytorch extension to quantize DNN model | Pytorch | PQT, QAT | 
+| [Brevitas](https://github.com/Xilinx/brevitas) | Pytorch extension to quantize DNN model | Pytorch | PTQ, QAT | 
 | [TFApprox](https://github.com/ehw-fit/tf-approximate) | Add ApproxConv layers to TF to emulate the use of approximated multipliers on GPU, typically from [EvoApproxLib](https://github.com/ehw-fit/evoapproxlib)  | Tensorflow | Approximate Multipliers|
+|[N2D2](https://github.com/CEA-LIST/N2D2)| Toolset to import or train model, apply quantization, and export in various format (C/C++ ...)|ONNX|QAT(license required), PTQ|
 
 ### Dedicated Library
 
