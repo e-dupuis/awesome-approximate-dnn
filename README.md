@@ -102,7 +102,10 @@ From algorithm to hardware execution
 
 ## Approximation Methods
 
-- [Awesome-model-compression-and-acceleration](https://github.com/memoiry/Awesome-model-compression-and-acceleration) - Github rebo with list of compression and acceleration techniques for Deep Learning 
+- 2018 [Awesome-model-compression-and-acceleration](https://github.com/memoiry/Awesome-model-compression-and-acceleration) - Github rebo with list of compression and acceleration techniques for Deep Learning 
+- 2019 [Model Compression and Acceleration Progress](https://github.com/juliagusak/model-compression-and-acceleration-progress) -  Github rebo with list of compression and acceleration techniques for Deep Learning 
+
+### Multi-techniques
 
 - 2020 [Deep Neural Network Compression by In-Parallel Pruning-Quantization](https://ieeexplore.ieee.org/document/8573867) - Use Bayesian optimization to solve both pruning and quantization problems jointly and with fine-tuning.
 
