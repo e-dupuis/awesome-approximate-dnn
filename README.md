@@ -102,9 +102,6 @@ From algorithm to hardware execution
 
 ## Approximation Methods
 
-- 2018 [Awesome-model-compression-and-acceleration](https://github.com/memoiry/Awesome-model-compression-and-acceleration) - Github rebo with list of compression and acceleration techniques for Deep Learning 
-- 2019 [Model Compression and Acceleration Progress](https://github.com/juliagusak/model-compression-and-acceleration-progress) -  Github rebo with list of compression and acceleration techniques for Deep Learning 
-
 ### Multi-techniques
 
 - 2020 [Deep Neural Network Compression by In-Parallel Pruning-Quantization](https://ieeexplore.ieee.org/document/8573867) - Use Bayesian optimization to solve both pruning and quantization problems jointly and with fine-tuning.
@@ -172,3 +169,15 @@ From algorithm to hardware execution
 - [Xilinx Vivado HLS](https://www.xilinx.com/support/documentation-navigation/design-hubs/dh0012-vivado-high-level-synthesis-hub.html) - C/C++ based HLS for XILINX Fpga
 - [ntel Quartus HLS](https://www.intel.fr/content/www/fr/fr/software/programmable/quartus-prime/hls-compiler.html) - C++ HLS for ALTERA/INTEL FPGA
 - [Mentor Catapult HLS](https://eda.sw.siemens.com/en-US/ic/ic-design/high-level-synthesis-and-verification-platform/) - C++/SystemC HLS For Siemens FPGA
+
+### Similar repos
+- https://github.com/juliagusak/model-compression-and-acceleration-progress
+- https://github.com/ZhishengWang/Embedded-Neural-Network
+- https://github.com/memoiry/Awesome-model-compression-and-acceleration
+- https://github.com/sun254/awesome-model-compression-and-acceleration
+- https://github.com/guan-yuan/awesome-AutoML-and-Lightweight-Models
+- https://github.com/chester256/Model-Compression-Papers
+- https://github.com/mapleam/model-compression-and-acceleration-4-DNN
+- https://github.com/cedrickchee/awesome-ml-model-compression
+- https://github.com/jnjaby/Model-Compression-Acceleration
+- https://github.com/he-y/Awesome-Pruning
