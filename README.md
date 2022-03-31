@@ -171,6 +171,10 @@ From algorithm to hardware execution
 - [ntel Quartus HLS](https://www.intel.fr/content/www/fr/fr/software/programmable/quartus-prime/hls-compiler.html) - C++ HLS for ALTERA/INTEL FPGA
 - [Mentor Catapult HLS](https://eda.sw.siemens.com/en-US/ic/ic-design/high-level-synthesis-and-verification-platform/) - C++/SystemC HLS For Siemens FPGA
 
+### Efficient DNN Architecture
+
+- [Blog post](https://machinethink.net/blog/mobile-architectures/) - related to recent mobile architectures
+
 ### Similar repos
 - https://github.com/juliagusak/model-compression-and-acceleration-progress
 - https://github.com/ZhishengWang/Embedded-Neural-Network
