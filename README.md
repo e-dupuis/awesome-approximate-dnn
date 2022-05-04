@@ -46,6 +46,7 @@ From algorithm to hardware execution
 - 2020 [Model Compression and Hardware Acceleration for Neural Networks: A Comprehensive Survey](http://ieeexplore.ieee.org/document/9043731), Deng & al.
 - 2020 [Approximation Computing Techniques to Accelerate CNN Based Image Processing Applications – A Survey in Hardware/Software Perspective](https://www.researchgate.net/publication/342754132_Approximation_Computing_Techniques_to_Accelerate_CNN_Based_Image_Processing_Applications_-_A_Survey_in_HardwareSoftware_Perspective), Manikandan & al.
 - 2021 [Pruning and Quantization for Deep Neural Network Acceleration: A Survey](https://arxiv.org/abs/2101.09671), Liang & al.
+- 2022 [Hardware Approximate Techniques for Deep Neural Network Accelerators: A Survey](https://arxiv.org/abs/2203.08737), Armeniakos & al.
 
 ## Tools
 
