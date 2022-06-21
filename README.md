@@ -61,6 +61,8 @@ From algorithm to hardware execution
 | [TFApprox](https://github.com/ehw-fit/tf-approximate) | Add ApproxConv layers to TF to emulate the use of approximated multipliers on GPU, typically from [EvoApproxLib](https://github.com/ehw-fit/evoapproxlib)  | Tensorflow | Approximate Multipliers|
 |[N2D2](https://github.com/CEA-LIST/N2D2)| Toolset to import or train model, apply quantization, and export in various format (C/C++ ...)|ONNX|QAT(license required), PTQ|
 |[Distiller](https://intellabs.github.io/distiller/index.html)|Distiller is an open-source Python package for neural network compression research (fine-tuning capable)|Pytorch|Pruning, Quantization (QAT), Knowledge Distillation, Conditional Computation, Regularization|
+|[Intel Neural Compressor]([https://intellabs.github.io/distiller/index.html](https://github.com/intel/neural-compressor))|INC is an open-source Python lib for neural network compression |TensorFlow, PyTorch, ONNX Runtime, MXNet |Pruning (Magnitude, Grad), Quantization (PQT, dynamic, QAT, Mix precision), Knowledge Distillation|
+
 
 ### Dedicated Library
 
