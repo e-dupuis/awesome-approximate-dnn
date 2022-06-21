@@ -39,7 +39,7 @@ From algorithm to hardware execution
 
 
 ## Best Surveys
-
+- 2022 [Hardware Approximate Techniques for Deep Neural Network Accelerators: A Survey](https://arxiv.org/abs/2203.08737), Armeniakos & al.
 - 2019 [Deep Neural Network Approximation for Custom Hardware:Where We’ve Been, Where We’re Going](https://arxiv.org/abs/1901.06955), Wang & al.
 - 2017 [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://ieeexplore.ieee.org/document/8114708), Sze & al.
 - 2019 [Recent Advances in Convolutional Neural Network Acceleration](https://www.semanticscholar.org/paper/Recent-Advances-in-Convolutional-Neural-Network-Zhang-Zhang/9552e625973a8c67a7e709cc4aa75c4fc71ce261), Qianru Zhang, & al.
@@ -61,6 +61,7 @@ From algorithm to hardware execution
 | [TFApprox](https://github.com/ehw-fit/tf-approximate) | Add ApproxConv layers to TF to emulate the use of approximated multipliers on GPU, typically from [EvoApproxLib](https://github.com/ehw-fit/evoapproxlib)  | Tensorflow | Approximate Multipliers|
 |[N2D2](https://github.com/CEA-LIST/N2D2)| Toolset to import or train model, apply quantization, and export in various format (C/C++ ...)|ONNX|QAT(license required), PTQ|
 |[Distiller](https://intellabs.github.io/distiller/index.html)|Distiller is an open-source Python package for neural network compression research (fine-tuning capable)|Pytorch|Pruning, Quantization (QAT), Knowledge Distillation, Conditional Computation, Regularization|
+|[Adapt](https://arxiv.org/abs/2203.04071)|AdaPT is a fast emulation framework that extends PyTorch to support approximate inference as well as approximation-aware retraining|Pytorch|Approximate Multipliers|
 |[Intel Neural Compressor](https://github.com/intel/neural-compressor)|INC is an open-source Python lib for neural network compression |TensorFlow, PyTorch, ONNX Runtime, MXNet |Pruning (Magnitude, Grad), Quantization (PQT, dynamic, QAT, Mix precision), Knowledge Distillation|
 |[Qualcomm AIMET](https://github.com/quic/aimet)|AIMET is an open-source lib for trained neural network quantization and compression + Model Zoo |TensorFlow, PyTorch, ONNX Runtime, MXNet |Pruning (Channel), Spatial SVD, per-layer compression ratio selection, Quantization (PQT, QAT, Simulation, Rounding, Bias correction, Cross layer equalization, Mix precision)|
 
@@ -109,6 +110,7 @@ From algorithm to hardware execution
 ## Approximation Methods
 
 ### Multi-techniques
+- 2022 [Cross-Layer Approximation for Printed Machine Learning Circuits](https://arxiv.org/abs/2203.05915) ([code](https://github.com/garmeniakos/Ax-Printed-ML-Classifiers)),  - Algorithmic and logic level approximation (coefficient replacement + netlist pruning) through a full DSE for printed ML applications.
 
 - 2020 [Deep Neural Network Compression by In-Parallel Pruning-Quantization](https://ieeexplore.ieee.org/document/8573867) - Use Bayesian optimization to solve both pruning and quantization problems jointly and with fine-tuning.
 
