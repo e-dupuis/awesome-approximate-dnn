@@ -62,6 +62,9 @@ From algorithm to hardware execution
 |[N2D2](https://github.com/CEA-LIST/N2D2)| Toolset to import or train model, apply quantization, and export in various format (C/C++ ...)|ONNX|QAT(license required), PTQ|
 |[Distiller](https://intellabs.github.io/distiller/index.html)|Distiller is an open-source Python package for neural network compression research (fine-tuning capable)|Pytorch|Pruning, Quantization (QAT), Knowledge Distillation, Conditional Computation, Regularization|
 |[Adapt](https://arxiv.org/abs/2203.04071)|AdaPT is a fast emulation framework that extends PyTorch to support approximate inference as well as approximation-aware retraining|Pytorch|Approximate Multipliers|
+|[Intel Neural Compressor](https://github.com/intel/neural-compressor)|INC is an open-source Python lib for neural network compression |TensorFlow, PyTorch, ONNX Runtime, MXNet |Pruning (Magnitude, Grad), Quantization (PQT, dynamic, QAT, Mix precision), Knowledge Distillation|
+|[Qualcomm AIMET](https://github.com/quic/aimet)|AIMET is an open-source lib for trained neural network quantization and compression + Model Zoo |TensorFlow, PyTorch, ONNX Runtime, MXNet |Pruning (Channel), Spatial SVD, per-layer compression ratio selection, Quantization (PQT, QAT, Simulation, Rounding, Bias correction, Cross layer equalization, Mix precision)|
+
 
 ### Dedicated Library
 
@@ -83,6 +86,8 @@ From algorithm to hardware execution
 |[Google TPU](https://cloud.google.com/tpu/docs/tpus) | Processing unit for DNN workload, efficient systolic array for computation | Cloud, Edge | V3 - 90 TOPS @250W, Coral Edge 4TOPS @ 2W |
 |[Greenwave GAP8](https://ieeexplore.ieee.org/document/8445101)| multi-GOPS fully programmable RISC-V IoT-edge computing engine, featuring a 8-core cluster with CNN accelerator, coupled with an ultra-low power MCU with 30 μW state-retentive sleep power (75mW)|Edge| 600 GMAC/s/W|
 |[Intel Movidius Myriad](https://www.intel.com/content/www/us/en/products/docs/processors/movidius-vpu/myriad-x-product-brief.html)| Vector processing unit for accelerating DNN inference, Interface with the OpenVino toolkit, 16 programmable cores| Edge | 1 TOPS @ 1.5W - 2.67 TOPS/W|
+|[Synaptic NPU VIP9000](https://www.verisilicon.com/en/PressRelease/VIP9000)| Nerural processing unit for accelerating DNN inference, 22 NN core (Conv) and 8 Tensor Core, support Bfloat16| Edge | 6,75 TOPS @ ? W |
+
 
 ### FPGA based accelerator / HLS for CNNs
 
