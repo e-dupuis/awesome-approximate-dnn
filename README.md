@@ -62,6 +62,7 @@ From algorithm to hardware execution
 |[N2D2](https://github.com/CEA-LIST/N2D2)| Toolset to import or train model, apply quantization, and export in various format (C/C++ ...)|ONNX|QAT(license required), PTQ|
 |[Distiller](https://intellabs.github.io/distiller/index.html)|Distiller is an open-source Python package for neural network compression research (fine-tuning capable)|Pytorch|Pruning, Quantization (QAT), Knowledge Distillation, Conditional Computation, Regularization|
 |[Intel Neural Compressor](https://github.com/intel/neural-compressor)|INC is an open-source Python lib for neural network compression |TensorFlow, PyTorch, ONNX Runtime, MXNet |Pruning (Magnitude, Grad), Quantization (PQT, dynamic, QAT, Mix precision), Knowledge Distillation|
+|[Qualcomm AIMET](https://github.com/quic/aimet)|AIMET is an open-source lib for trained neural network quantization and compression + Model Zoo |TensorFlow, PyTorch, ONNX Runtime, MXNet |Pruning (Channel), Spatial SVD, per-layer compression ratio selection, Quantization (PQT, QAT, Simulation, Rounding, Bias correction, Cross layer equalization, Mix precision)|
 
 
 ### Dedicated Library
