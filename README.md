@@ -64,6 +64,7 @@ From algorithm to hardware execution
 |[Adapt](https://arxiv.org/abs/2203.04071)|AdaPT is a fast emulation framework that extends PyTorch to support approximate inference as well as approximation-aware retraining|Pytorch|Approximate Multipliers|
 |[Intel Neural Compressor](https://github.com/intel/neural-compressor)|INC is an open-source Python lib for neural network compression |TensorFlow, PyTorch, ONNX Runtime, MXNet |Pruning (Magnitude, Grad), Quantization (PQT, dynamic, QAT, Mix precision), Knowledge Distillation|
 |[Qualcomm AIMET](https://github.com/quic/aimet)|AIMET is an open-source lib for trained neural network quantization and compression + Model Zoo |TensorFlow, PyTorch, ONNX Runtime, MXNet |Pruning (Channel), Spatial SVD, per-layer compression ratio selection, Quantization (PQT, QAT, Simulation, Rounding, Bias correction, Cross layer equalization, Mix precision)|
+|[OpenMMRazor](https://github.com/open-mmlab/mmrazor)|MMRazor is an open-source toolkit for model slimming and AutoML | OpenMM | Neural Architecture Search (NAS), Pruning, Knowledge Distillation (KD), Quantization (in the next release)|
 
 
 ### Dedicated Library
