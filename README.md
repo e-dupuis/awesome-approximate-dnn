@@ -79,6 +79,7 @@ From algorithm to hardware execution
 - [OpenVino](https://docs.openvinotoolkit.org) - OpenCL based graph compiler for intel environnment (Intel CPU, Intel GPU, Dedicated accelerator)
 - [N2D2](https://github.com/CEA-LIST/N2D2) - Framework capable of training and exporting DNN in different format, particulary standalone C/C++ compilable project with very few dependencis and quantized, support import from ONNX model
 - [Vitis AI](https://www.xilinx.com/products/design-tools/vitis/vitis-ai.html) - Optimal Artificial Intelligence Inference from Edge to Cloud (compiler / optimizer / quantizer / profiler / IP set)
+- [OnnxRuntime Graph optim](https://onnxruntime.ai/docs/performance/model-optimizations/ort-format-model-runtime-optimization.html) - Optimize onnx graph (simplification)
 
 ### Commercial Dedicated HW accelerator (ASIC)
 | Name | Description | Environment | Perf |
