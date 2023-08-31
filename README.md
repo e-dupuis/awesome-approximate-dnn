@@ -85,7 +85,7 @@ From algorithm to hardware execution
 | Name | Description | Environment | Perf |
 |---|---|---|---|
 |[Esperanto ET-soc-1](https://www.esperanto.ai/esperanto-technologies-to-reveal-chip-with-1000-cores-at-risc-v-summit/) | 1000+ low power risc v core chip energy efficient processing of ML/DNN | Cloud | 800 TOPS @ 20W |
-|[Google TPU](https://cloud.google.com/tpu/docs/tpus) | Processing unit for DNN workload, efficient systolic array for computation | Cloud, Edge | V3 - 90 TOPS @250W, Coral Edge 4TOPS @ 2W |
+|[Google TPU](https://cloud.google.com/tpu/docs/tpus) | Processing unit for DNN workload, efficient systolic array for computation | Cloud, Edge | V4 - 275 TFLOPS @ 200W / V3 - 90 TOPS @250W / Coral Edge 4TOPS @ 2W |
 |[Greenwave GAP8](https://ieeexplore.ieee.org/document/8445101)| multi-GOPS fully programmable RISC-V IoT-edge computing engine, featuring a 8-core cluster with CNN accelerator, coupled with an ultra-low power MCU with 30 μW state-retentive sleep power (75mW)|Edge| 600 GMAC/s/W|
 |[Intel Movidius Myriad](https://www.intel.com/content/www/us/en/products/docs/processors/movidius-vpu/myriad-x-product-brief.html)| Vector processing unit for accelerating DNN inference, Interface with the OpenVino toolkit, 16 programmable cores| Edge|  1 TOPS @ 1.5W - 2.67 TOPS/W|
 |[Synaptic NPU VIP9000](https://www.verisilicon.com/en/PressRelease/VIP9000)| Nerural processing unit for accelerating DNN inference, 22 NN core (Conv) and 8 Tensor Core, support Bfloat16| Edge | 6,75 TOPS @ ? W |
