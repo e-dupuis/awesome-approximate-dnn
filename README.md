@@ -88,7 +88,8 @@ From algorithm to hardware execution
 |[Greenwave GAP8](https://ieeexplore.ieee.org/document/8445101)| multi-GOPS fully programmable RISC-V IoT-edge computing engine, featuring a 8-core cluster with CNN accelerator, coupled with an ultra-low power MCU with 30 μW state-retentive sleep power (75mW)|Edge| 600 GMAC/s/W|
 |[Intel Movidius Myriad](https://www.intel.com/content/www/us/en/products/docs/processors/movidius-vpu/myriad-x-product-brief.html)| Vector processing unit for accelerating DNN inference, Interface with the OpenVino toolkit, 16 programmable cores| Edge|  1 TOPS @ 1.5W - 2.67 TOPS/W|
 |[Synaptic NPU VIP9000](https://www.verisilicon.com/en/PressRelease/VIP9000)| Nerural processing unit for accelerating DNN inference, 22 NN core (Conv) and 8 Tensor Core, support Bfloat16| Edge | 6,75 TOPS @ ? W |
-|[Sima ML accelerator MLSoC](https://sima.ai/wp-content/uploads/2022/07/SiMa_ProductBrief_R12.pdf)| Neural processing unit for accelerating DNN inference (PCIe/SPI/I2C...), support int8 | Edge | 50 TOPS @ 5 W |
+|[Sima ML accelerator MLSoC](https://sima.ai/wp-content/uploads/2022/07/SiMa_ProductBrief_R12.pdf)| SoC for accelerating DNN inference (PCIe/SPI/I2C...), support int8 | Edge/Cloud | 50 TOPS @ 5 W |
+|[Moffett Antoum](https://www.servethehome.com/moffett-antoum-ai-inference-accelerator-at-hot-chips-2023/)| SoC for accelerating SPARSE CV/LLM DNNs inference | Cloud | 29.5 TOPS / 3.7 TFLOPS @ 70 W |
 
 ### FPGA based accelerator / HLS for CNNs
 
