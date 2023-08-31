@@ -91,6 +91,8 @@ From algorithm to hardware execution
 |[Synaptic NPU VIP9000](https://www.verisilicon.com/en/PressRelease/VIP9000)| Nerural processing unit for accelerating DNN inference, 22 NN core (Conv) and 8 Tensor Core, support Bfloat16| Edge | 6,75 TOPS @ ? W |
 |[Sima ML accelerator MLSoC](https://sima.ai/wp-content/uploads/2022/07/SiMa_ProductBrief_R12.pdf)| SoC for accelerating DNN inference (PCIe/SPI/I2C...), support int8 | Edge/Cloud | 50 TOPS @ 5 W |
 |[Moffett Antoum](https://www.servethehome.com/moffett-antoum-ai-inference-accelerator-at-hot-chips-2023/)| SoC for accelerating SPARSE CV/LLM DNNs inference | Cloud | 29.5 TOPS / 3.7 TFLOPS @ 70 W |
+|[IBM NorthPole](https://www.servethehome.com/moffett-antoum-ai-inference-accelerator-at-hot-chips-2023/)| NPU for  DNNs inference, Vector Matrix Multiplication (VMM) + 2xNoC, int 4,8,16 | Cloud | -  |
+
 
 ### FPGA based accelerator / HLS for CNNs
 
