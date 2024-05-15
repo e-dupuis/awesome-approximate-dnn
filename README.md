@@ -80,7 +80,8 @@ From algorithm to hardware execution
 - [N2D2](https://github.com/CEA-LIST/N2D2) - Framework capable of training and exporting DNN in different format, particulary standalone C/C++ compilable project with very few dependencis and quantized, support import from ONNX model
 - [Vitis AI](https://www.xilinx.com/products/design-tools/vitis/vitis-ai.html) - Optimal Artificial Intelligence Inference from Edge to Cloud (compiler / optimizer / quantizer / profiler / IP set)
 - [OnnxRuntime Graph optim](https://onnxruntime.ai/docs/performance/model-optimizations/ort-format-model-runtime-optimization.html) - Optimize onnx graph (simplification)
-- [Mirage](https://github.com/mirage-project/mirage) - (GPU) Mirage is a tensor algebra superoptimizer that automatically discovers highly-optimized tensor programs for DNNs. Mirage automatically identifies and verifies sophisticated optimizations, many of which require joint optimization at the kernel, thread block, and thread levels of the GPU compute hierarchy. 
+- [Mirage](https://github.com/mirage-project/mirage) - (GPU) Mirage is a tensor algebra superoptimizer that automatically discovers highly-optimized tensor programs for DNNs. Mirage automatically identifies and verifies sophisticated optimizations, many of which require joint optimization at the kernel, thread block, and thread levels of the GPU compute hierarchy.
+- [OpenXLA](https://github.com/openxla/xla) - XLA (Accelerated Linear Algebra) is an open-source machine learning (ML) compiler for GPUs, CPUs, and ML accelerators. The XLA compiler takes models from popular ML frameworks such as PyTorch, TensorFlow, and JAX, and optimizes them for high-performance execution across different hardware platforms including GPUs, CPUs, and ML accelerators.
 
 ### Commercial Dedicated HW accelerator (ASIC)
 | Name | Description | Environment | Perf |
